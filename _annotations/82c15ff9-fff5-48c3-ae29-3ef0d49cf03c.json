@@ -1,0 +1,5 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/nubian-message-2002-04-18_0004"
+order: 1
+---
+{"type": "Annotation", "body": [{"type": "TextualBody", "value": "test", "purpose": "tagging", "creator": {"id": "keewerner", "name": "keewerner"}, "created": "2021-03-23T13:43:54.283Z", "modified": "2021-03-23T13:43:54.794Z"}, {"type": "TextualBody", "value": "test", "purpose": "commenting", "creator": {"id": "keewerner", "name": "keewerner"}, "created": "2021-03-23T13:43:57.309Z", "modified": "2021-03-23T13:43:57.723Z"}], "target": {"source": "https://d.lib.ncsu.edu/collections/canvas/nubian-message-2002-04-18_0004", "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:688.969482421875,758.5756225585938,1889.526123046875,1861.8745727539062"}, "dcterms:isPartOf": {"id": "https://d.lib.ncsu.edu/collections/catalog/nubian-message-2002-04-18/manifest.json", "type": "Manifest"}}, "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/82c15ff9-fff5-48c3-ae29-3ef0d49cf03c.json"}

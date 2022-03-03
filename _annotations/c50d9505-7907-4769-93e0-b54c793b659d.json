@@ -1,0 +1,35 @@
+---
+canvas: "https://dlib2.biblhertz.it/iiif/3/dg5322501/canvas/p0001"
+order: 38
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Quattro Vertu Cardinalitie",
+            "purpose": "commenting",
+            "creator": {
+                "id": "keewerner",
+                "name": "Klaus E. Werner"
+            },
+            "created": "2022-03-03T16:09:20.346Z",
+            "modified": "2022-03-03T16:09:26.091Z"
+        }
+    ],
+    "target": {
+        "source": "https://dlib2.biblhertz.it/iiif/3/dg5322501/canvas/p0001",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=11563.8955078125,7365.546875,509.0029296875,739.09912109375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dlib.biblhertz.it/iiif/dg5322501/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c50d9505-7907-4769-93e0-b54c793b659d.json",
+    "motivation": "commenting"
+}

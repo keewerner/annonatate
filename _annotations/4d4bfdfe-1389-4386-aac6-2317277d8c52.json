@@ -3,33 +3,33 @@ canvas: "https://dlib2.biblhertz.it/iiif/3/dg5322501/canvas/p0001"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Cardinali",
-            "purpose": "commenting",
+            "created": "2022-03-03T14:48:19.583Z",
             "creator": {
                 "id": "keewerner",
                 "name": "Klaus E. Werner"
             },
-            "created": "2022-03-03T14:48:19.583Z",
-            "modified": "2022-03-03T14:48:21.652Z"
+            "modified": "2022-03-03T14:48:21.652Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Cardinali"
         }
     ],
+    "id": "4d4bfdfe-1389-4386-aac6-2317277d8c52.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://dlib2.biblhertz.it/iiif/3/dg5322501/canvas/p0001",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=11614.8447265625,8587.640625,1382.6904296875,667.134765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://dlib.biblhertz.it/iiif/dg5322501/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=11614.8447265625,8587.640625,1382.6904296875,667.134765625"
+        },
+        "source": "https://dlib2.biblhertz.it/iiif/3/dg5322501/canvas/p0001"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4d4bfdfe-1389-4386-aac6-2317277d8c52.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }

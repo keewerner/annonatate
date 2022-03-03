@@ -1,0 +1,35 @@
+---
+canvas: "https://dlib2.biblhertz.it/iiif/3/dg5322501/canvas/p0001"
+order: 31
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Caudatarij",
+            "purpose": "commenting",
+            "creator": {
+                "id": "keewerner",
+                "name": "Klaus E. Werner"
+            },
+            "created": "2022-03-03T16:05:51.884Z",
+            "modified": "2022-03-03T16:05:53.997Z"
+        }
+    ],
+    "target": {
+        "source": "https://dlib2.biblhertz.it/iiif/3/dg5322501/canvas/p0001",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=9265.6943359375,9043.0986328125,739.099609375,644.271484375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dlib.biblhertz.it/iiif/dg5322501/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "9ac94c62-9bb9-4ca6-b432-b5d711d2713e.json",
+    "motivation": "commenting"
+}

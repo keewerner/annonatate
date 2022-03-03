@@ -1,0 +1,35 @@
+---
+canvas: "https://dlib2.biblhertz.it/iiif/3/dg5322501/canvas/p0001"
+order: 23
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Abbreviatori",
+            "purpose": "commenting",
+            "creator": {
+                "id": "keewerner",
+                "name": "Klaus E. Werner"
+            },
+            "created": "2022-03-03T15:56:53.955Z",
+            "modified": "2022-03-03T15:56:56.466Z"
+        }
+    ],
+    "target": {
+        "source": "https://dlib2.biblhertz.it/iiif/3/dg5322501/canvas/p0001",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=12464.73828125,10002.5322265625,1467.0419921875,370.9443359375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dlib.biblhertz.it/iiif/dg5322501/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "45fe2fc2-d023-4870-bf05-99fd7e8a5a72.json",
+    "motivation": "commenting"
+}

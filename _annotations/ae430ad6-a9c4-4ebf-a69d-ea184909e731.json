@@ -1,0 +1,35 @@
+---
+canvas: "https://dlib2.biblhertz.it/iiif/3/dg5322501/canvas/p0001"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Cardinali Diaconi Assistenti",
+            "purpose": "commenting",
+            "creator": {
+                "id": "keewerner",
+                "name": "Klaus E. Werner"
+            },
+            "created": "2022-03-03T14:47:08.310Z",
+            "modified": "2022-03-03T14:47:13.381Z"
+        }
+    ],
+    "target": {
+        "source": "https://dlib2.biblhertz.it/iiif/3/dg5322501/canvas/p0001",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=10584.1337890625,8409.4736328125,207.56640625,742.0498046875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://dlib.biblhertz.it/iiif/dg5322501/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "ae430ad6-a9c4-4ebf-a69d-ea184909e731.json",
+    "motivation": "commenting"
+}
